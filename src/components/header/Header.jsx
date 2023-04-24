@@ -16,14 +16,15 @@ const Header = () => {
         </h5>
         {" "}
         <h1>
-        {" "}
+          
+        {/* {" "}
           <Typical
              loop={Infinity}
              steps={[
               "  ByteSoft",
                  2000,
              ]}
-          />
+          /> */}
           
         </h1>
         <h5 className="text-light">Fullstack Developer</h5>
