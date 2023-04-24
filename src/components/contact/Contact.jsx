@@ -28,19 +28,19 @@ const Contact = () => {
             <MdOutlineEmail className='contact__option-icon'/>
             <h4>Email</h4>
             <h5>info@bytesoft.com.mx</h5>
-            <a href="mailto:info@bytesoft.com.mx" target="_blank">Send a message</a>
+            <a href="mailto:info@bytesoft.com.mx" rel="noreferrer" target="_blank">Send a message</a>
           </article>
           <article className="contact__option">
             <RiMessengerLine className='contact__option-icon'/>
             <h4>Messenger</h4>
             <h5>ByteSoft</h5>
-            <a href="https://business.facebook.com/latest/inbox/all?bpn_id=3491881497760915&asset_id=101059026312417&nav_ref=redirect_biz_inbox_comet_profile_plus_ap_page_inbox_message_button" target="_blank">Send a message</a>
+            <a href="https://business.facebook.com/latest/inbox/all?bpn_id=3491881497760915&asset_id=101059026312417&nav_ref=redirect_biz_inbox_comet_profile_plus_ap_page_inbox_message_button" rel="noreferrer" target="_blank">Send a message</a>
           </article>
           <article className="contact__option">
             <BsWhatsapp className='contact__option-icon'/>
             <h4>WhatsApp</h4>
             <h5>+52 (463)-118-5420</h5>
-            <a href="https://wa.me/+524631185420" target="_blank">Send a message</a>
+            <a href="https://wa.me/+524631185420" rel="noreferrer" target="_blank">Send a message</a>
           </article>
         </div>
         {/* END OF CONTACT OPTIONS */}
